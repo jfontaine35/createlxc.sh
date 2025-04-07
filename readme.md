@@ -69,7 +69,7 @@ Contributions sont bienvenues ! Pour proposer des modifications ou ajouter de no
 
 ## Licence
 
-Ce projet est sous licence [MIT](LICENSE).
+Ce projet est sous licence [MIT](licence.txt).
 
 ## Remerciements
 
