@@ -39,16 +39,27 @@ chmod +x create_lxc.sh
 ## Exemple de Configuration
 
 VMID=210
+
 TEMPLATE="/var/lib/vz/template/cache/debian-12-standard_12.7-1_amd64.tar.zst"
+
 HOSTNAME="srv-mtp-addc01"
+
 NET_CONFIG="name=eth0,bridge=vmbr2,ip=192.168.1.210/24,gw=192.168.1.254"
+
 STORAGE="local-lvm:10"
+
 MEMORY=2048
+
 SWAP=1024
+
 UNPRIVILEGED=0
+
 FEATURES="nesting=1"
+
 DNS_SERVERS="192.168.1.210,192.168.1.217,1.1.1.1"
+
 ONBOOT=1
+
 PROTECTION=1
 
 
